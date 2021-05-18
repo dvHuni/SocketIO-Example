@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 class SocketIOManager {
     static let shared = SocketIOManager()
     
-    private let manager = SocketManager(socketURL: URL(string: "https://test-arqtc.run.goorm.io/")!, config: [.log(true), .compress])
+    private let manager = SocketManager(socketURL: URL(string: "https://test-arqtc.run.goorm.io")!, config: [.log(true), .compress])
     private var socket: SocketIOClient {
         manager.defaultSocket
     }
