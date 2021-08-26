@@ -1,5 +1,5 @@
 # SocketIOExample
-Socket.IO-Client-Swift Practie Project
+Socket.IO-Client-Swift Practice Project
 
 ## Description
 Socket.IO-Client-Swift를 사용한 소켓 통신 Sample Project
